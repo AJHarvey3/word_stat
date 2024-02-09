@@ -12,7 +12,7 @@ def length():
     word_count = len(words.split())
     character = len(words)
     avg_length = character/word_count
-    return render_template("length.html", character=character, word_count=word_count, avg_length=avg_length)
+    return render_template("length.html", character=character, word_count=word_count, avg_length=avg_length)git
 
 
 if __name__ == '__main__':
